@@ -1,0 +1,13 @@
+.hero-image {
+	height: 547.2936401367188px;
+  width: 100%;
+	max-width: 820px;
+	border-radius: 0px;
+  margin-bottom: 8rem;
+
+  & img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+}

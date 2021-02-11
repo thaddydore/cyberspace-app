@@ -1,0 +1,20 @@
+body, html {
+  // css reset
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+}
+ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import "~bootstrap/scss/bootstrap";
+@import './components/backgroundWrapper/backgroundWrapper';
+@import './components/header/header';
+@import './components/merchants/merchants';
+@import './components/merchants/_card.Scss';
+@import './components/heroImage/heroImage';
+@import './screens/landingPage';
+@import './components/hero/hero';
+@import './components//download/download';
+
